@@ -1,38 +1,55 @@
 <!DOCTYPE html>
     <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Maitree&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">     
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
         <title>Patrick Lippert Portfolio</title>
     </head>
 
     <body>
         <header>
-            <p><a href="/">Patrick Lippert</a></p>
-            <ul>
-                <li>About</li>
-                <li>Work</li>
-                <li>Connect</li>
-            </ul>
+            <h3><a href="#">Patrick Lippert</a></h3>
+
+            <a href="#About" class="nav">About</a>
+            <a href="#Work" class="nav">Work</a>
+            <a href="#Connect" class="nav">Connect</a>
+            
         </header>
         
         <section id="About">
             <img src="images/PlaceholderAvatar.png"/>
-
+            
+            <div class="content">
             <h1>Patrick Lippert</h1>
             <h3>UX/UI Designer</h3>
 
             <p>I’m a UX Designer with a background in design. My specialties are my creativity, collaborative skills, and curiosity. My fine art and technology education paired with my job experience working in small teams makes me an asset for any team. </p>
-            <p><a href="/">Resume</a></p>
+            <p><a href="#">Resume</a></p>
+            <ul class="icons">
+                <li><i class="fab fa-linkedin fa-3x"></i></li>
+                <li><i class="fab fa-behance-square fa-3x"></i></li>
+                <li><i class="fab fa-dribbble-square fa-3x"></i></li>
+                <li><i class="fas fa-envelope fa-3x"></i></li>
+            </ul>
+            </div>
         
         </section>
 
         <section id="Work">
-            <h1>Recent Work</h1>
+            <h1>Recent Work</h1><br/>
 
-            <div>
+            <div class="projectCards">
+            <div class="card">
+                <img id="Hodo" src="images/HodoScreenshot.png"/>
                 <h3>Hodo, A Travel App for Millennials</h3>
             </div>
 
-            <div>
+            <div class="card">
+                <img id="DoE" src="images/DoEScreenshot.png"/>
                 <h3>Department of Education Redesign</h3>
+            </div>
             </div>
         </section>
 
@@ -41,10 +58,10 @@
 
             <p>If you want to see more or you're interested in working with me, check me out at the links below. </p>
             <ul>
-                <li>LinkedIn</li>
-                <li>Behance</li>
-                <li>Dribble</li>
-                <li>patrick.lippert1@gmail.com</li>
+                <li><i class="fab fa-linkedin fa-3x"></i> <a href="#">LinkedIn</a></li>
+                <li><i class="fab fa-behance-square fa-3x"></i> <a href="#">Behance</a></li>
+                <li><i class="fab fa-dribbble-square fa-3x"></i><a href="#">Dribble</a></li>
+                <li><i class="fas fa-envelope fa-3x"></i><a href="#">patrick.lippert1@gmail.com</a></li>
             </ul>
         </section>
 
@@ -52,10 +69,10 @@
             <p>&copy;2021 Patrick Lippert</p>
 
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><i class="fab fa-linkedin fa-2x"></i> </li>
+                <li><i class="fab fa-behance-square fa-2x"></i></li>
+                <li><i class="fab fa-dribbble-square fa-2x"></i></li>
+                <li><i class="fas fa-envelope fa-2x"></i></li>
             </ul>
         </footer>
     </body>
