@@ -185,28 +185,3 @@ footer ul{
 footer li {
     display: inline;
 }
-
-/*Mobile Devices*/
-@media only screen and (max-width:575px) {
-    /*About Work Styling*/
-    #About {
-        flex-wrap:wrap;
-        justify-content: center;
-    }
-
-    #About img {
-        width: 100%;
-        height: auto;
-    }
-
-    
-    /*Mobile Work Styling*/
-    .card {
-        height: auto;
-    }
-
-    #DoE {
-        width: 90%;
-        height:auto;
-    }
-}
