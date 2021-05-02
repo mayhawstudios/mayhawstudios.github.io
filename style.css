@@ -12,8 +12,11 @@
 /*Header Styling*/
 header {
     background-color:#2A2127;
-    padding: 0px 8% 0px 8%;
-    display: flex;
+    padding: 0px 8% 20px 8%;
+}
+
+.name, .navigation {
+    display: inline-block;
 }
 
 header a {
@@ -62,6 +65,10 @@ p, li {
     width: 400px;
     height: 400px;
     margin-right:50px;
+}
+
+#About .content {
+    width: 800px;
 }
 
 #About a:link {
@@ -187,4 +194,48 @@ footer ul{
 
 footer li {
     display: inline;
+}
+
+@media screen and (max-width:600px) {  
+    /* Mobile Header */   
+    header {
+        display: grid;
+        grid-template-rows: 40px 60px;
+        place-items: center;
+        padding: 0;
+
+    }
+
+    .name, .navigation, .copyright, .socialMedia {
+        display: block;
+        text-align: center;
+    }
+
+    /*Mobile About*/
+    #About {
+        flex-wrap: wrap;
+    }
+
+    #About img {
+        width: 300px;
+        height: 300px;
+    }
+
+    /*Mobile Work*/
+    #DoE {
+        width: 300px;
+        height:300px;
+    }
+
+    .card:nth-of-type(2) {
+        height: 400px;
+    }
+
+    footer {
+        display:inline-block;
+    }
+
+    .copyright, .socialMedia {
+        width: 300px;
+    }
 }
