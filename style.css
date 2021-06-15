@@ -72,11 +72,11 @@ p, li {
 }
 
 #About a:link {
-    color: #DF6209;
+    color:#6F3F59;
 }
 
 #About a:visited {
-    color:#6F3F59;
+    color: #DF6209;
 }
 
 .content h3 {
@@ -97,9 +97,9 @@ ul.icons{
 }
 
 .icons li {
-    color: #6F3F59;
     display: inline;
 }
+
 
 /*Work Styling*/
  #Work {
@@ -194,7 +194,13 @@ footer ul{
 
 footer li {
     display: inline;
+    color: white;
 }
+
+.socialMedia li a {
+    color: white;
+}
+
 
 @media screen and (max-width:600px) {  
     /* Mobile Header */   
