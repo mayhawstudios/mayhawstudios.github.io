@@ -120,6 +120,11 @@ ul.icons{
      transition: all .5s linear;
  }
 
+ #Work a {
+     text-decoration:none;
+     color: white;
+ }
+
  .projectCards {
      display: flex;
      justify-content: space-between;
