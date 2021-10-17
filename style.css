@@ -109,7 +109,7 @@ ul.icons{
     color: white;
  }
 
- #Work img {
+ /*#Work img {
     mix-blend-mode: multiply;
     filter: grayscale(1);
  }
@@ -118,7 +118,7 @@ ul.icons{
      mix-blend-mode: normal;
      filter: none;
      transition: all .5s linear;
- }
+ }*/
 
  #Work a {
      text-decoration:none;
